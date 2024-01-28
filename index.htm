@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,600&display=swap" rel="stylesheet">
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <div class="main-box">
+
+        <header>
+            <h1> Currency <br>Convert </h1>
+        </header>
+
+        <div class="select-box">
+
+
+            <label >Converting From</label>
+            <select name="" id="select-up">
+
+                <option value="real">BRL-Real Brasileiro</option>
+                <option value="dolar">USD-Dolar Dos EUA</option>
+                <option value="euro">EUR-Euro </option>
+
+            </select>
+
+            <label for="">For</label>
+            <select name="" id="select-low">
+
+                <option value="real-brl">BRL-Real Brasileiro</option>
+                <option value="dolar-eua">USD-Dolar Dos EUA</option>
+                <option value="euro-eur">EUR-Euro </option>
+
+            </select>
+
+            <label>Value To Be Converter</label>
+            <input class="input-sum-value" type="number">
+
+            <button class="convert">Convert</button>
+
+        </div>
+        <div  class="result-box">
+            
+        </div>
+    </div>
+
+</body>
+<script src="./CoinValues.js"></script>
+<script src="./script.js"></script>
+
+</html>
